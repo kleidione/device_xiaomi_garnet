@@ -27,6 +27,9 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 # Inherit from garnet device
 $(call inherit-product, device/xiaomi/garnet/device.mk)
 
+# Inherit from the MiuiCamera setup
+$(call inherit-product-if-exists, vendor/xiaomi/garnet-miuicamera/products/miuicamera.mk)
+
 PRODUCT_NAME := aosp_garnet
 PRODUCT_DEVICE := garnet
 PRODUCT_MANUFACTURER := Xiaomi
