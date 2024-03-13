@@ -588,5 +588,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     WfdCommon
 
+# Xiaomi
+PRODUCT_PACKAGES += \
+    XiaomiParts    
+
 # Vendor
 $(call inherit-product, vendor/xiaomi/garnet/garnet-vendor.mk)
