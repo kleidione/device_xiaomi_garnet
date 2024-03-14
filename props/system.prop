@@ -16,6 +16,9 @@ persist.vendor.camera.ois.video=1
 # QTI
 ro.vendor.qti.va_aosp.support=1
 
+# Maintainer
+ro.genesis.Maintainer=kleidione
+
 # Radio
 DEVICE_PROVISIONED=1
 persist.vendor.data.mode=concurrent
