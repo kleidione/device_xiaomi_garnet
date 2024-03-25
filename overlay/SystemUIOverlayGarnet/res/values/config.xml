@@ -12,5 +12,7 @@
 
     <!-- If not zero, limits the internal screen recorder's framerate to the set value. -->
     <integer name="config_screenRecorderMaxFramerate">60</integer>
-
+    
+    <!-- Whether long press is required to activate keyguard quick affordance buttons -->
+    <bool name="config_keyguardQuickAffordanceRequiresLongPress">false</bool>
 </resources>
