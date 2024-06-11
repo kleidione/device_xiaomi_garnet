@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_garnet.mk
+    $(LOCAL_DIR)/awaken_garnet.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_garnet-user \
-    lineage_garnet-userdebug \
-    lineage_garnet-eng
+    awaken_garnet-user \
+    awaken_garnet-userdebug \
+    awaken_garnet-eng

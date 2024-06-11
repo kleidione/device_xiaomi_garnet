@@ -367,14 +367,10 @@ $(foreach sku, CN GL, \
 
 # Overlay
 PRODUCT_PACKAGES += \
-    ApertureOverlayGarnet \
     CarrierConfigOverlayGarnet \
     DialerOverlayGarnet \
     FrameworkOverlayGarnet \
     FrameworkOverlayGarnetEsim \
-    LineageSDKOverlayGarnet \
-    LineageSettingsOverlayGarnet \
-    LineageSystemUIOverlayGarnet \
     SettingsOverlayGarnet \
     SettingsProviderOverlayGarnetPoco \
     SettingsProviderOverlayGarnetRedmi \
