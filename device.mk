@@ -387,6 +387,9 @@ $(foreach sku, CN GL JP, \
         frameworks/native/data/etc/com.android.nfc_extras.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/sku_$(sku)/com.android.nfc_extras.xml \
         frameworks/native/data/etc/com.nxp.mifare.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/sku_$(sku)/com.nxp.mifare.xml))
 
+PRODUCT_SYSTEM_EXT_PROPERTIES += \
+    persist.nfc.camera.pause_polling=true
+
 # Overlay
 PRODUCT_PACKAGES += \
     CarrierConfigOverlayGarnet \
