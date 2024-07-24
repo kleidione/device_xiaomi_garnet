@@ -1725,13 +1725,11 @@ vendor/bin/init.qti.kernel.debug-parrot.sh
 vendor/bin/init.qti.kernel.debug.sh
 vendor/bin/init.qti.kernel.early_debug-parrot.sh
 vendor/bin/init.qti.kernel.early_debug.sh
-vendor/bin/init.qti.media.sh
 vendor/bin/init.qti.touch_boot.sh
 vendor/bin/qca6234-service.sh
 vendor/etc/init/hw/init.qcom.factory.rc
 vendor/etc/init/hw/init.qti.kernel.test.rc
 vendor/etc/init/hw/init.qti.ufs.rc
-vendor/etc/init/init.qti.media.rc
 vendor/etc/init/init.qti.touch_boot.rc
 
 # Kernel
