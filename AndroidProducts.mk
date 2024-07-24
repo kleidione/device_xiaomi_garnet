@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_garnet.mk
+    $(LOCAL_DIR)/blaze_garnet.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_garnet-user \
-    lineage_garnet-userdebug \
-    lineage_garnet-eng
+    blaze_garnet-user \
+    blaze_garnet-userdebug \
+    blaze_garnet-eng
