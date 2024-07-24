@@ -499,6 +499,13 @@ PRODUCT_PACKAGES += \
     vndservice \
     vndservicemanager
 
+# Vendor init
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/rootdir/etc/init.xiaomi_garnet.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.xiaomi_garnet.rc
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/rootdir/bin/init.xiaomi_garnet.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.xiaomi_garnet.sh
+
 # Verified boot
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.verified_boot.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.verified_boot.xml
