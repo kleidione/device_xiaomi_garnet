@@ -9,6 +9,9 @@
     <!-- Bottom margin size when fingerprint in display is active -->
     <dimen name="keyguard_indication_margin_bottom">10dp</dimen>
 
+    <!-- Margin on the left side of the carrier text on Keyguard -->
+    <dimen name="keyguard_carrier_text_margin">10dp</dimen>
+
     <!-- the padding on the start of the statusbar -->
     <dimen name="status_bar_padding_start">0dp</dimen>
 
