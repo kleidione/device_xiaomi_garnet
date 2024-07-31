@@ -12,4 +12,7 @@
 
     <!-- The radius of the enrollment progress bar, in dp -->
     <integer name="config_udfpsEnrollProgressBar" translatable="false">90</integer>
+
+    <!-- Whether to show vendor security patch level -->
+    <bool name="config_show_vendor_patch_level" translatable="false">false</bool>
 </resources>
