@@ -11,4 +11,5 @@
     <dimen name="status_bar_padding_end">0dp</dimen>
     <dimen name="rounded_corner_content_padding">47px</dimen>
     <dimen name="status_bar_header_height_keyguard">94px</dimen>
+    <dimen name="keyguard_lock_height">130dp</dimen>
 </resources>
