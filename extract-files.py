@@ -91,6 +91,7 @@ blob_fixups: blob_fixups_user_type = {
     'vendor/etc/media_codecs_parrot_v0.xml': blob_fixup()
         .regex_replace('.+media_codecs_(google_audio|google_c2|google_telephony|vendor_audio).+\n', ''),
     (
+        'vendor/etc/seccomp_policy/atfwd@2.0.policy',
         'vendor/etc/seccomp_policy/sensors-qesdk.policy',
         'vendor/etc/seccomp_policy/wfdhdcphalservice.policy',
     ): blob_fixup()
