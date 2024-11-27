@@ -90,7 +90,10 @@ blob_fixups: blob_fixups_user_type = {
         .regex_replace('on charger', 'on property:init.svc.vendor.charger=running'),
     'vendor/etc/media_codecs_parrot_v0.xml': blob_fixup()
         .regex_replace('.+media_codecs_(google_audio|google_c2|google_telephony|vendor_audio).+\n', ''),
-    'vendor/etc/seccomp_policy/wfdhdcphalservice.policy': blob_fixup()
+    (
+        'vendor/etc/seccomp_policy/sensors-qesdk.policy',
+        'vendor/etc/seccomp_policy/wfdhdcphalservice.policy',
+    ): blob_fixup()
         .add_line_if_missing('gettid: 1'),
     'vendor/etc/vintf/manifest/c2_manifest_vendor.xml': blob_fixup()
         .regex_replace('.+dolby.+\n', ''),
