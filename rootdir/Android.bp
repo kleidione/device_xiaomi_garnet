@@ -52,3 +52,9 @@ prebuilt_etc {
     sub_dir: "init",
     vendor: true,
 }
+
+sh_binary {
+    name: "init.dolby_fix.sh",
+    src: "bin/init.dolby_fix.sh",
+    vendor: true,
+}
