@@ -46,6 +46,8 @@ blob_fixups: blob_fixups_user_type = {
             'libprotobuf-cpp-full.so',
             'libprotobuf-cpp-full-21.7.so'
         ),
+    'system_ext/framework/mirilhook.jar': blob_fixup()
+        .apktool_patch('blob-patches/mirilhook.patch'),
     (
         'vendor/bin/hw/android.hardware.gnss-aidl-service-qti',
         'vendor/lib64/hw/android.hardware.gnss-aidl-impl-qti.so',
