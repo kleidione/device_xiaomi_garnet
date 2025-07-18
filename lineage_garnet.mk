@@ -9,6 +9,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 TARGET_SUPPORTS_OMX_SERVICE := false
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_BUILD_APERTURE_CAMERA := false
+TARGET_DISABLE_EPPE := true
+TARGET_INCLUDE_ACCORD := false
+BUILD_BCR := false
+
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
