@@ -1,4 +1,5 @@
 # Audio
+persist.vendor.audio.scenario u:object_r:vendor_audio_prop:s0
 persist.vendor.audio.pa.smartpa_type u:object_r:vendor_audio_prop:s0
 vendor.audio.voice.receiver.status u:object_r:vendor_audio_prop:s0
 
