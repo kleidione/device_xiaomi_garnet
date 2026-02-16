@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2023-2025 Paranoid Android
+
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- App Name -->
+    <string name="app_name">Xiaomi Parts</string>
+
+    <!-- ESIM -->
+    <string name="esim_title">eSIM</string>
+    <string name="esim_enable_name">Ativar eSIM</string>
+    <string name="esim_summary_enabled">Ativado</string>
+    <string name="esim_summary_disabled">Desativado</string>
+    <string name="esim_summary_unsupported">eSIM não é compatível com este dispositivo</string>
+    <string name="esim_warning_title">eSIM em uso</string>
+    <string name="esim_warning_message">Por favor, desative ou remova seu perfil eSIM atual antes de continuar</string>
+    <string name="esim_footer_note">Ativar o eSIM desativará o segundo slot físico de SIM</string>
+    <string name="esim_footer_note_unsupported">Este dispositivo não suporta funcionalidade eSIM</string>
+</resources>
